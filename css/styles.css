@@ -1,0 +1,347 @@
+@font-face {
+	font-family: 'Montserrat Regular';
+	src: url('../fonts/Montserrat-Regular.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+	}
+@font-face {
+	font-family: 'Montserrat Semibold';
+	src: url('../fonts/Montserrat-SemiBold.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+	}
+@font-face {
+	font-family: 'Montserrat Bold';
+	src: url('../fonts/Montserrat-ExtraBold.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+	}
+@font-face {
+	font-family: 'Montserrat Black';
+	src: url('../fonts/Montserrat-Black.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+	}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Montserrat Regular';
+	font-size: 16px;
+	outline: none;
+}
+html, body {
+	overflow-x: hidden;
+}
+.container {
+	padding: 0;
+}
+h1 {
+	font-family: 'Montserrat Semibold';
+	font-size: 6vw;
+}
+.container {
+	max-width: 1171px;
+}
+.logo {
+	margin: 30px 0 30px 108px;
+}
+.logo-text__large {
+	font-family: 'Montserrat Black';
+	font-size: 28px;
+	
+	letter-spacing: 0.6px;
+	margin: 0;
+}
+.logo-text__small {
+	font-size: 11px;
+	font-weight: 400;
+	text-transform: uppercase;
+	/* Text style for "T, agline" */
+	letter-spacing: 0.77px;
+	margin: 0;
+	line-height: 0.6;
+}
+.nav_header {
+	padding: 30px 0;
+}
+li {
+	list-style: none;
+}
+:focus, :focus-within {
+    outline: none;
+}
+.nav__item_header {
+	margin: 10px 50px;
+}
+.nav__item_header a {
+	font-size: 12px;
+}
+.header_icons {
+	margin-top: 40px;
+	padding-right: 50px;
+}
+.block-introduction__bg {
+	background-color: #C4C9CD;
+	position: relative;
+}
+
+.block-introduction {
+	background: url('../images/introduction.png') bottom  no-repeat;
+	min-height: 1000px;
+	margin-left: 60px;
+
+}
+.block-introduction__text {
+	padding-top: 180px;
+	width: 53%;
+}
+.block-introduction__text_med {
+	font-size: 14px;
+	font-weight: 600;
+	letter-spacing: 2px;
+}
+.block-introduction__contacts {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 60px;
+	height: 100%;
+	background-color: #ededed;
+	padding-top: 12%;
+}
+.block-introduction__icons {
+	margin-top: 40px;
+}
+.follow-us {
+	transform: rotate(-90deg);
+	margin-top: 70px;
+	font: 400 10px 'Montserrat Bold';
+	letter-spacing: 1px;
+}
+
+
+
+.block-introduction__text_large {
+	font-family: 'Montserrat Bold';
+	line-height: 1;
+}
+.block-introduction__icon {
+	width: 36px;
+	height: 36px;
+	margin: 10px 15px 40px 0;
+	border: 1px solid black;
+	border-radius: 100%;
+}
+.block-introduction__icon_1 {
+	background-color: black;
+}
+.block-introduction__icon_2 {
+	background: url(../images/Forma_1.png) 50%  no-repeat;
+}
+.block-introduction__icon_3 {
+	background: url(../images/Forma_3.png) 50%  no-repeat;
+}
+.block-introduction__text_small {
+	font-size: 14px;
+	line-height: 26px;
+	max-width: 292px;
+}
+.btn-shop {
+	width: 114px;
+	height: 39px;
+	font-size: 9px;
+	border-radius: 20px;
+	border-style: none;
+}
+.block-introduction__offer {
+	margin-top: 100px;
+	min-height: 482px;
+	max-width: 652px;
+	background: url(../images/bg_offer_block-intr.png) 0 0 / cover no-repeat;
+}
+
+
+.block-introduction__offer-text {
+	padding: 50px 3% 0 0;
+	color: white;
+}
+
+.offer__text_large {
+	font-size: 2rem;
+	font-family: 'Montserrat Bold';	
+}
+.price_old {
+	font-size: 22px;
+	font-family: 'Montserrat Semibold';
+	font-weight: 600;
+	text-decoration: line-through;
+}
+.price_new {
+	font-size: 40px;
+	font-family: 'Montserrat Bold';
+	font-weight: 700;
+}
+.time__item {
+	width: 91px;
+	height: 105px;
+	border-radius: 20px;
+	background-color: #ffffff;
+	padding-top: 5%;
+	font-size: 40px;
+	font-family: 'Montserrat Semibold';
+}
+.time__item p {
+	font-size: 12px;
+}
+.block_collection {
+	padding-top: 48px ;
+}
+.nav__item_collection a {
+	color: #2d2b27;
+	font-family: "Montserrat Semibold";
+	font-size: 19px;
+	font-weight: 400;
+	line-height: 14.57px;
+	letter-spacing: 2.6px;
+}
+
+.left {
+	width: 277px;
+
+}
+.middle {
+	width: 478px;
+}
+.right {
+	width: 373px;
+}
+.card-1 {
+	background: url(../images/cross.png) top center / 100% auto no-repeat;
+	background-color: #f8f8f8;
+	padding: 90% 15% 10%;
+}
+.card-2, .card-5 {
+	margin-top: 20px;
+}
+.card-3 {
+	background: url(../images/vintage-look.png) top center / contain no-repeat;
+	padding: 40% 55% 30% 10%;
+	background-color: #ECECEA;
+}
+.card-title {
+	color: #2d2b27;
+	font-family: 'Montserrat Bold';
+	font-size: 20px;
+	font-weight: 600;
+	letter-spacing: 1.4px;
+}
+.card-4 {
+	height: 259px;
+	background: url(../images/fashion-for-men.png) top center / auto 100% no-repeat;
+	padding: 18% 35% 0 6%;
+}
+.card-5 {
+	background: url(../images/glasses.png) top center / contain no-repeat;
+	background-color: #f8f8f8;
+	position: relative;
+	padding: 50% 5% 10%;
+}
+.card-4 .small-text, .card-5 .small-text {
+	font-family: "Montserrat Bold";
+	font-size: 12px;
+	letter-spacing: 1.4px;
+}
+.new {
+	width: 48px;
+	height: 30px;
+	background: url(../images/new.png) 0 0 no-repeat;
+	position: absolute;
+	right: 3%;
+	top: 5%;
+	font-size: 12px;
+}
+.block_offer {
+	background-color: #00b7d9;
+	height: 250px;
+	margin-top: 30px;
+
+}
+h2 {
+	font-family: 'Montserrat Semibold';
+	font-size: 26px;
+	line-height: 20px;
+	letter-spacing: 2.6px;
+}
+.block_offer__text {
+	padding-top: 5%;;
+}
+.btn-white {
+	font-size: 12px;
+	width: 244px;
+	height: 59px;
+	border-radius: 30px;
+	background-color: #ffffff;
+}
+.block_products-offer, .block-subscribe {
+	margin-top: 100px; 
+}
+.block_products-offer__text {
+	color: #1a1a1a;
+	font-family: Montserrat;
+	font-size: 12px;
+	font-weight: 400;
+	line-height: 20px;
+	letter-spacing: 5.6px;
+}
+.block_products-offer .btn-shop {
+	margin-top: 95%;
+	font-size: 16px;
+	width: 174px;
+	height: 59px;
+	border-radius: 30px;
+}
+.block-subscribe {
+	background-color: #d7dbd5;
+}
+.block-subscribe__text {
+	padding: 5% 0 0 10%;
+}
+.block-subscribe__text h5 {
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 23.16px;
+	text-transform: uppercase;
+	/* Text style for "S, IGN UP" */
+	letter-spacing: 5.6px;
+}
+.block-subscribe .btn-shop {
+	font-size: 16px;
+	width: 205px;
+	height: 70px;
+	border-radius: 40px;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 23.73px;
+}
+footer {
+	background-color: #F8F8F8;
+}
+.nav-footer__title {
+	font-family: 'Montserrat Bold';
+}
+
+.back {
+  position: fixed;
+  top: 10vh;
+  left: 2vw;
+  padding: 2px 5px;
+  background-color: #545454;
+  box-shadow: 0 0 10px #545454;
+  border-radius: 20px;
+  font-size: 14px;
+}
+.fas,
+.fas a {
+  color: #FFFFFF;
+}
