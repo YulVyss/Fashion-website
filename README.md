@@ -1,1 +1,1 @@
-# Fashion-website
+# Fashion-website - a template for portfolio
